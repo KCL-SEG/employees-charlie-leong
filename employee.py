@@ -36,7 +36,7 @@ class Employee:
             elif(self.commission_type == "bonus"):
                 line += "and receives a bonus commission of " + str(self.bonus)
         line += ". "
-        line += " Their total pay is " + str(self.get_pay() + ".")
+        line += " Their total pay is " + str(self.get_pay()) + "."
         return line
 
 
@@ -67,9 +67,3 @@ ariel = Employee('Ariel', "bonus", "hourly", 30)
 ariel.hours = 120
 ariel.bonus = 600
 
-print(f"billie {str(billie)}")
-print(f"charlie {str(charlie)}")
-print(f"renee {str(renee)}")
-print(f"jan {str(jan)}")
-print(f"robbie {str(robbie)}")
-print(f"ariel {str(ariel)}")
