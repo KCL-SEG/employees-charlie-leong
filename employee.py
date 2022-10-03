@@ -36,7 +36,7 @@ class Employee:
             elif(self.commission_type == "bonus"):
                 line += "and receives a bonus commission of " + str(self.bonus)
         line += ". "
-        line += " Their total pay is " + str(self.get_pay()".")
+        line += " Their total pay is " + str(self.get_pay() + ".")
         return line
 
 
