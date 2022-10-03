@@ -32,11 +32,11 @@ class Employee:
             line += " contract of " + str(self.hours) + " hours at " + str(self.salary) + "/hour"
         if(self.commission_type):
             if(self.commission_type == "contract"):
-                line += " and receives a commission for " + str(self.commission_contracts) + "contract\(s\) at " + str(self.contract_fee) + "/contract"
+                line += " and receives a commission for " + str(self.commission_contracts) + "contract(s) at " + str(self.contract_fee) + "/contract"
             elif(self.commission_type == "bonus"):
                 line += "and receives a bonus commission of " + str(self.bonus)
         line += ". "
-        line += "\s+Their total pay is " + str(self.get_pay())
+        line += " Their total pay is " + str(self.get_pay()".")
         return line
 
 
